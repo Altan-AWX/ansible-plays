@@ -4,7 +4,7 @@
   hosts: all
   tasks:
         - name: Crea instancias y activa monitoreo
-        - ec2:
+          ec2:
             key_name: awx
             group: databases
             instance_type: t2.micro
