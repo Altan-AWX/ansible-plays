@@ -1,6 +1,6 @@
 ---
 - name: Crea una instancia y cloudwatch
-  gather_facts: true
+  gather_facts: false
   hosts: all
   tasks:
         - name: Crea instancias y activa monitoreo
